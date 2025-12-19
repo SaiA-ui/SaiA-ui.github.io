@@ -1,10 +1,213 @@
-<html>
-    <head>
-        <title>morita</title>
-    </head>
-    <body>
-        ここが本体
-    <body>
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SaiA | Portfolio</title>
+    <meta name="description" content="SaiAの自己紹介ポートフォリオ。プロフィール、スキル、制作物、連絡先をまとめたモダンなレスポンシブサイト。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orbit"></div>
+    <div class="bg-orbit bg-orbit--two"></div>
 
-        
+    <header class="site-header">
+      <a class="logo" href="#top">SaiA</a>
+      <nav class="site-nav" id="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Creative / Web / UI</p>
+          <h1>ポートフォリオで、私の世界観を伝えます。</h1>
+          <p class="lead">
+            SaiAは、伝わるデザインと使いやすさを両立させるWeb/UIクリエイター。
+            コンセプト設計から公開まで、一気通貫で仕上げます。
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#projects">制作物を見る</a>
+            <a class="btn btn--ghost" href="#contact">相談する</a>
+          </div>
+          <div class="hero__meta">
+            <div>
+              <span class="label">拠点</span>
+              <strong>Tokyo / Remote</strong>
+            </div>
+            <div>
+              <span class="label">対応領域</span>
+              <strong>Branding, UI, Frontend</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="portrait">
+            <img src="Shomamorita.png" alt="SaiAのプロフィール写真" />
+          </div>
+          <div class="badge">Available 2025</div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section__header">
+          <h2>About</h2>
+          <p>ストーリーと信頼感を生み出す、自己紹介のための設計。</p>
+        </div>
+        <div class="about">
+          <p>
+            デジタル領域を中心に、ブランディング、Web制作、UIデザインを行っています。
+            目的やユーザー体験から逆算し、必要な言葉・構成・ビジュアルを提案。
+            ポートフォリオや採用サイトなど「人を動かすサイト作り」が得意です。
+          </p>
+          <div class="about__cards">
+            <article>
+              <h3>コンセプト設計</h3>
+              <p>目的、ターゲット、競合を整理し、言葉と構成を明確化します。</p>
+            </article>
+            <article>
+              <h3>UI / Visual</h3>
+              <p>表現のトーンと情報整理を揃え、ブランド体験を統一します。</p>
+            </article>
+            <article>
+              <h3>実装</h3>
+              <p>シンプルで高速な静的サイトを構築し、公開まで伴走します。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section__header">
+          <h2>Skills</h2>
+          <p>企画から実装まで、スムーズに進めるための技術とツール。</p>
+        </div>
+        <div class="skills">
+          <div class="skills__group">
+            <h3>Design</h3>
+            <ul>
+              <li>Figma / FigJam</li>
+              <li>Adobe CC</li>
+              <li>Information Architecture</li>
+              <li>Branding Direction</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML / CSS / JS</li>
+              <li>Responsive Design</li>
+              <li>Animation & Motion</li>
+              <li>GitHub Pages</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Workflow</h3>
+            <ul>
+              <li>Notion / Linear</li>
+              <li>Remote Collaboration</li>
+              <li>Rapid Prototyping</li>
+              <li>Presentation & Docs</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p>最近の制作イメージ。詳細はヒアリング後に共有します。</p>
+        </div>
+        <div class="projects">
+          <article class="project">
+            <div class="project__meta">
+              <span class="tag">Branding</span>
+              <span class="tag">Web</span>
+            </div>
+            <h3>Studio Aurora</h3>
+            <p>クリエイティブスタジオ向けに、余白と余韻を重視したLPを制作。</p>
+          </article>
+          <article class="project">
+            <div class="project__meta">
+              <span class="tag">Portfolio</span>
+              <span class="tag">UI</span>
+            </div>
+            <h3>Recruit Portfolio</h3>
+            <p>採用向けに情報設計を最適化し、信頼感を高める構成に刷新。</p>
+          </article>
+          <article class="project">
+            <div class="project__meta">
+              <span class="tag">Landing</span>
+              <span class="tag">Motion</span>
+            </div>
+            <h3>Product Launch</h3>
+            <p>アニメーションを抑制的に取り入れ、製品価値を端的に伝達。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="timeline" class="section">
+        <div class="section__header">
+          <h2>Journey</h2>
+          <p>これまでの軌跡と、現在の注力領域。</p>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span>2021</span>
+            <div>
+              <h3>UIデザインを本格化</h3>
+              <p>情報設計と可読性を重視したUI制作に注力。</p>
+            </div>
+          </li>
+          <li>
+            <span>2023</span>
+            <div>
+              <h3>フロント実装の強化</h3>
+              <p>HTML/CSS/JSでの表現力を高め、納品品質を向上。</p>
+            </div>
+          </li>
+          <li>
+            <span>2025</span>
+            <div>
+              <h3>ブランド体験の設計</h3>
+              <p>言葉・ビジュアル・体験を統合するプロジェクトに注力。</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="contact" class="section section--cta">
+        <div>
+          <h2>Contact</h2>
+          <p>お仕事の相談、コラボ、登壇依頼などお気軽にご連絡ください。</p>
+        </div>
+        <div class="contact">
+          <a class="btn" href="mailto:hello@example.com">hello@example.com</a>
+          <p class="contact__note">返信は原則48時間以内。</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2025 SaiA</span>
+      <div class="footer__links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="https://x.com/" target="_blank" rel="noreferrer">X</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
