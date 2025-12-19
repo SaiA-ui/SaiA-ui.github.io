@@ -1,6 +1,6 @@
 # ああ
 
-Markdownの使い方を学ぶ
+Markdownの使い方を学ぶ！
 
 ## レベル2: Markdownってなんだっけ？
 
